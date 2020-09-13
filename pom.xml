@@ -37,7 +37,7 @@
 					<environment>dev</environment>
 					<workers>1</workers>
 					<workerType>Micro</workerType>
-					<applicationName>cicd-demo</applicationName>
+					<applicationName>cicd-pipeline-demo</applicationName>
 					<muleVersion>4.3.0</muleVersion>
 				</cloudHubDeployment>
 				</configuration>
