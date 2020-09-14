@@ -14,7 +14,7 @@ pipeline
 		   }	   
 		   stage('Perform Regression Testing'){
 			   steps{
-			   	bat 'newman run F:\\work\\ulework\\jenkins\\postman\\cicd-demo.postman_collection.json --disable-unicode'
+			   	bat 'newman run F:\\work\\mulework\\jenkins\\postman\\cicd-demo.postman_collection.json --disable-unicode'
 			   }
 		   }
 	  }
