@@ -6,6 +6,11 @@ pipeline
 			   steps{
 			   	bat 'mvn clean install'
 			   }
+		   }
+		   stage('Run MUnit tests'){
+			   steps{
+			   	bat 'mvn test'
+			   }
 		   }	   
 		   stage('Deploy Application to CloudHub'){
 			   steps{
