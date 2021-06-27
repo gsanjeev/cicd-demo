@@ -21,7 +21,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	"location" : attributes.uriParams.location
 }]]]></http:uri-params>
 		</http:request>
-		<logger level="INFO" doc:name="Logger" doc:id="51870f93-46a0-446d-8f35-e9c7eb9e33e2" message='test the cidd response:  #[payload]'/>
+		<logger level="INFO" doc:name="Logger" doc:id="51870f93-46a0-446d-8f35-e9c7eb9e33e2" message='test the cidd response: -&gt; #[payload]'/>
 	</flow>
 	
 </mule>
