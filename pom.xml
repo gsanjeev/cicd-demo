@@ -34,7 +34,7 @@
 				<cloudHubDeployment>
 					<username>sanjeev25</username>
 					<password>Pa55word5</password>
-					<environment>dev</environment>
+					<environment>Dev</environment>
 					<workers>1</workers>
 					<workerType>Micro</workerType>
 					<applicationName>cicd-pipeline-demo</applicationName>
