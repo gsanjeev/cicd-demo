@@ -7,7 +7,7 @@ pipeline
 			   	bat 'mvn clean install -DskipTests'
 			   }
 		   }
-		   stage('Run MUnit tests.'){
+		   stage('Run MUnit tests..'){
 			   steps{
 			   	bat 'mvn test'
 			   }
